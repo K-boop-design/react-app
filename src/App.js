@@ -19,7 +19,7 @@ function App() {
         Hello
       </CustomFunctionalComponent>
       <CustomClassComponent name={appName} age={44}>
-        Hii
+        Hello there
       </CustomClassComponent>
       <CustomFirstComponent />
     </div>
