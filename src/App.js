@@ -16,7 +16,7 @@ function App() {
       <CustomRefComponent />
       <CustomEventComponent />
       <CustomFunctionalComponent name={appName} age={44}>
-        Hii
+        Hello
       </CustomFunctionalComponent>
       <CustomClassComponent name={appName} age={44}>
         Hii
