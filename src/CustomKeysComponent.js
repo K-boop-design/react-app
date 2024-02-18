@@ -1,6 +1,6 @@
 import React from "react";
 
-const CustomizedKeysComponent = () => {
+const CustomKeysComponent = () => {
   const items = [
     {
       productName: "Shoes",
@@ -38,4 +38,4 @@ const CustomizedKeysComponent = () => {
   );
 };
 
-export default CustomizedKeysComponent;
+export default CustomKeysComponent;
