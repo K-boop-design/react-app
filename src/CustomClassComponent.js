@@ -1,10 +1,12 @@
-import React, { Component } from "react";
+import React, { Component,createRef } from "react";
 
 class CustomClassComponent extends Component {
   constructor() {
     super();
     console.log('initialized');
   }
+
+  divref=createRef()
   
   state = {
     age: 30,
@@ -47,7 +49,7 @@ class CustomClassComponent extends Component {
     console.log('rendered')
     return (
       <div>
-        <div onClick={this.handleClick}>
+        <div ref={this.divref} onClick={this.handleClick}>
           CustomizedComponent - {this.userName}@{this.state.age} - {this.state.country}
         </div>
         <button onClick={this.handleButtonClick}>
